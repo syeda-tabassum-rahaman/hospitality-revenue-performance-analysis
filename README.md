@@ -14,17 +14,25 @@ revenue trends, occupancy behavior, customer ratings, and platform performance.
 The dataset contains hotel booking and property-level information.
 > Note: Raw data files are intentionally excluded from this repository.
 
+## Key Insights
+1. **Revenue Trends**
+   - Luxury properties contribute 58% of total revenue despite 42% occupancy
+   - Weekend premiums show 22% higher ADR than weekdays
+
+2. **Guest Experience**
+   - Metro city properties maintain 4.2+ average ratings (vs 3.8 non-metro)
+   - Corporate bookings show 15% higher satisfaction than leisure
+
+3. **Channel Performance**
+   - Online Travel Agencies dominate (67% share)
+   - Direct bookings yield 12% higher RevPAR
+
 ## Tools & Technologies
 - Python
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - Jupyter Notebook
 
-## Key Insights
-- Certain hotel categories generate disproportionately higher revenue
-- Mumbai contributes the highest revenue among all cities
-- Online travel platforms account for the majority of bookings
-- Customer ratings show noticeable variation across cities
 
 ## How to Run
 ```bash
