@@ -1,39 +1,40 @@
-# Hospitality Domain Exploratory Data Analysis (EDA)
+# 🏨 Hospitality Revenue & Booking Intelligence
 
-## Project Overview
-This project performs exploratory data analysis on hospitality booking data to understand
-revenue trends, occupancy behavior, customer ratings, and platform performance.
+### 📋 Project Overview
+This project provides a data-driven solution for the hospitality industry to optimize hotel revenue and booking performance. By analyzing historical booking data from a hotel chain (AtliQ Hotels), it identifies key growth opportunities and provides actionable insights to improve room occupancy and pricing strategies.
 
-## Business Questions Answered
-- Revenue realized per hotel type
-- Average customer rating per city
-- Revenue contribution by booking platform
-- City-level occupancy insights
+### 🎯 Business Value
+* **Revenue Management:** Analyzes RevPAR (Revenue Per Available Room) and ADR (Average Daily Rate) to maximize profitability.
+* **Occupancy Growth:** Identifies booking patterns across different cities and room categories to fill "dead zones."
+* **Platform Optimization:** Evaluates which booking channels (Direct vs. Third-party) provide the highest realization rate, helping to reduce commission costs.
 
-## Dataset
-The dataset contains hotel booking and property-level information.
-> Note: Raw data files are intentionally excluded from this repository.
+---
 
-## Key Insights
-1. **Revenue Trends**
-   - Luxury properties contribute 58% of total revenue despite 42% occupancy
-   - Weekend premiums show 22% higher ADR than weekdays
+### ✨ Key Features
+* **Hospitality KPI Dashboard:** Automated calculation of essential metrics: RevPAR, ADR, and Occupancy %.
+* **Data Reliability Layer:** Custom Python scripts to handle "dirty data" such as outlier pricing and invalid guest entries.
+* **City-Level Analytics:** Deep-dive analysis into performance trends across major hubs (Delhi, Mumbai, Hyderabad, Bangalore).
+* **Segmented Insights:** Breakdown of performance by room class (Elite, Premium, Standard) to guide marketing spend.
 
-2. **Guest Experience**
-   - Metro city properties maintain 4.2+ average ratings (vs 3.8 non-metro)
-   - Corporate bookings show 15% higher satisfaction than leisure
+---
 
-3. **Channel Performance**
-   - Online Travel Agencies dominate (67% share)
-   - Direct bookings yield 12% higher RevPAR
+### 🛠️ Tech Stack & Methodology
+* **Language:** Python 3.x
+* **Data Libraries:** Pandas (Processing), Matplotlib & Seaborn (Visualization)
+* **Analysis Type:** Exploratory Data Analysis (EDA) & Business Intelligence (BI)
+* **Logic:** Built with a "Business-First" mindset, focusing on metrics that drive executive decisions.
 
-## Tools & Technologies
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Jupyter Notebook
+---
 
+### 📊 Key Insights from the Analysis
+* **Lead Time Impact:** Understanding how early bookings correlate with cancellation rates.
+* **Revenue Leakage:** Identifying the gap between "Booked" and "Realized" revenue to improve forecasting.
+* **Pricing Elasticity:** Analysis of how ADR changes during weekends vs. weekdays in different city markets.
 
-## How to Run
-```bash
-pip install -r requirements.txt
+---
+
+### ⚙️ Installation & Usage
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/syeda-tabassum-rahaman/codebasics-hospitality-eda](https://github.com/syeda-tabassum-rahaman/codebasics-hospitality-eda)
